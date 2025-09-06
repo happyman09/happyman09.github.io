@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  line-height: 1.6;
+}
+
+/*Box Window Limit*/
+.box-limit {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/*Hero*/
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #222;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.tagline {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+
+/*Boss Project*/
+.boss-project {
+  margin: 1px auto;
+  width: 70%;
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 50px #8b0000, 0 0 200px #0077ff, 0 0 70px #0077ff;
+}
+.boss-img {
+  border-radius: 8px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+/*.boss-project:hover {
+  box-shadow: 0 5px 50px #8b0000, 0 0 200px #0077ff, 0 0 70px #0077ff;
+  transition: 1.0s ease-in-out;
+}*/
+.boss-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.boss-slider-button {
+  background: none;
+  border: none;
+  color: #eee;
+  font-size: 2rem;
+  opacity: 0.4;
+}
+.boss-slider-button:hover {
+  color: #777;
+}
+.boss-link {
+  color: #c56df5;
+}
+.attention {
+  color: #e76999;
+}
+
+/*Highlight Project*/
+.highlight-project {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.highlight-project img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.highlight-project:hover {
+  box-shadow: 0 0 5px #f173a3, 0 0 30px #f173a3, 0 0 30px #f173a3;
+  transition: 0.4s ease-in-out;
+}
+.highlight-project-link {
+  color: #e76999;
+}
+
+/*Support Projects*/
+.support-projects .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+.support-projects .project-card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+.support-projects .project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 4px 0 5px #8b0000, 0 0 20px #8b0000;
+  transition: 0.3s ease-in-out;
+}
+
+
+/*Extras*/
+.beyond-code {
+  background: #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.extras-link {
+  color: #8b0000;
+}
+a {
+  text-decoration: none;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #777;
+  font-size: 0.9rem;
+}
+
