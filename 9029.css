@@ -90,7 +90,7 @@ h2 {
   margin-bottom: 10px;
 }
 .highlight-project:hover {
-  box-shadow: 0 0 5px #f173a3, 0 0 30px #f173a3, 0 0 30px #f173a3;
+  box-shadow: 0 0 5px #f173a3, 0 0 77px #f173a3, 0 0 30px #f173a3;
   transition: 0.4s ease-in-out;
 }
 .highlight-project-link {
