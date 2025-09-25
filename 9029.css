@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-/*Box Window Limit*/
+/* Box Window Base Limit */
 .box-limit {
   padding: 40px 20px;
   max-width: 1000px;
@@ -17,8 +17,13 @@ h2 {
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
+.picvid-limit {
+  border-radius: 8px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
 
-/*Hero*/
+/* Hero */
 .hero {
   text-align: center;
   padding: 60px 20px;
@@ -34,7 +39,7 @@ h2 {
 }
 
 
-/*Boss Project*/
+/* Boss Project */
 .boss-project {
   margin: 1px auto;
   width: 70%;
@@ -44,13 +49,6 @@ h2 {
   margin-bottom: 70px;
   box-shadow: 0 5px 50px #8b0000, 0 0 200px #0077ff, 0 0 70px #0077ff;
 }
-
-.boss-img {
-  border-radius: 8px;
-  max-width: 100%;
-  margin-bottom: 10px;
-}
-
 .boss-slider {
   display: flex;
   justify-content: center;
@@ -74,52 +72,79 @@ h2 {
   color: #e76999;
 }
 
-/*Highlight Project*/
-.highlight-project {
+/* Highlight Project Base Box Limit*/
+.highlight-box {
   background: #222;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 40px;
   text-align: center;
 }
-.highlight-project img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-bottom: 10px;
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
 }
-.highlight-project:hover {
+
+/* Hightlight Project 0 */
+.highlight-project-0 {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+  transition: box-shadow 0.6s ease-in-out;
+}
+.highlight-project-0.hovered {
   box-shadow: 0 0 5px #f173a3, 0 0 77px #f173a3, 0 0 30px #f173a3;
-  transition: 0.4s ease-in-out;
 }
-.highlight-project-link {
+.highlight-project-0.leaving {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+}
+.highlight-project-0-link {
   color: #e76999;
 }
 
-/*Highlight Project 1*/
+/* Highlight Project 1 */
 .highlight-project-1 {
-  background: #222;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 40px;
-  text-align: center;
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+  transition: box-shadow 0.6s ease-in-out;
 }
-.highlight-project-1 img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-.highlight-project-1:hover {
+.highlight-project-1.hovered {
   box-shadow: 0 0 5px #00e5ff, 0 0 77px #00e5ff, 0 0 30px #00bfa6;
-  transition: 0.4s ease-in-out;
 }
-.pathon {
+.highlight-project-1.leaving {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+}
+.highlight-project-1-link {
   color: #00bfa6;
 }
 .path-text {
   color: #00e5ff;
 }
+.pathon {
+  color: #00bfa6;
+}
 
-/*Support Projects*/
+
+/* Highlight Project 2 */
+.highlight-project-2 {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+  transition: box-shadow 0.6s ease-in-out;
+}
+.highlight-project-2.hovered {
+  box-shadow: 0 0 5px #f4c0f4, 0 0 77px #8b0000, 0 0 30px #8b0000;
+}
+.highlight-project-2.leaving {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+}
+.highlight-project-2-link {
+  color: #f4c054;
+}
+.kal-text {
+  color: #f4c054;
+}
+.kal {
+  color: #fb3231;
+}
+
+/* Support Projects */
 .support-projects .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -138,7 +163,7 @@ h2 {
 }
 
 
-/*Extras*/
+/* Extras */
 .beyond-code {
   background: #222;
   border-radius: 10px;
@@ -152,7 +177,7 @@ a {
   text-decoration: none;
 }
 
-/*Footer*/
+/* Footer */
 footer {
   text-align: center;
   padding: 20px;
