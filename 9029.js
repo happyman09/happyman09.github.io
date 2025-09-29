@@ -153,6 +153,23 @@ iconYoutube.addEventListener('mouseleave', () => {
 });
 
 
+// ------- Mobile Autoplay -------//
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+if (isMobile) {
+  const videos = document.querySelectorAll("video");
+
+  videos.forEach(video => {
+    video.setAttribute("autoplay", "");
+    video.setAttribute("muted", "");
+    video.setAttribute("playsinline", "");
+    video.setAttribute("loop", "");
+    video.play().catch(() => {
+    });
+  });
+}
+
+
 
 /////////
 
