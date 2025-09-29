@@ -25,7 +25,6 @@ h2 {
 }
 /*------- Featured Badge -------*/
 .featured-badge {
-  position: absolute;
   right: 250px;
   background: linear-gradient(135deg, #fceabb, #f8b500);
   color: black;
@@ -62,13 +61,11 @@ h2 {
   box-shadow: 0 0 8px #00C8FF;
 }
 .windows { 
-  position: absolute;
   right: 330px;
   background: linear-gradient(135deg, #00A4EF, #0078D6, #005BA1);
   box-shadow: 0 0 8px #00A4EF;
 }
 .macos {
-  position: absolute;
   right: 330px;
   background: linear-gradient(135deg, #555555, #888888);
   box-shadow: 0 0 8px #888888;
@@ -80,7 +77,6 @@ h2 {
 .clickme {
   background: linear-gradient(90deg, #ff007a 0%, #8a2be2 50%, #00c6ff 100%);
   box-shadow: 0 0 16px #8a2be2;
-  position: absolute;
   right: 330px;
   cursor: pointer;
 }
