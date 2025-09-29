@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  line-height: 1.6;
+}
+
+
+/*------- Box Window Base Limit -------*/
+.box-limit {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.picvid-limit {
+  border-radius: 8px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+/*------- Featured Badge -------*/
+.featured-badge {
+  position: absolute;
+  right: 250px;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 2px 10px;
+  margin-left: 10px;
+  border-radius: 12px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 16px #f8b500;
+  cursor: default;
+}
+.badge {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  margin-left: 10px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+  cursor: default;
+}
+.new {
+  background: #28a745;
+  box-shadow: 0 0 8px #28a745;
+}
+.arch { 
+  background: linear-gradient(135deg, #1E1E1E, #3A3A3A);
+  color: #00C8FF;
+  box-shadow: 0 0 8px #00C8FF;
+}
+.windows { 
+  position: absolute;
+  right: 330px;
+  background: linear-gradient(135deg, #00A4EF, #0078D6, #005BA1);
+  box-shadow: 0 0 8px #00A4EF;
+}
+.macos {
+  position: absolute;
+  right: 330px;
+  background: linear-gradient(135deg, #555555, #888888);
+  box-shadow: 0 0 8px #888888;
+}
+.live {
+  background: linear-gradient(135deg, #ff1744, #d50000);
+  box-shadow: 0 0 8px#d50000;
+}
+.clickme {
+  background: linear-gradient(90deg, #ff007a 0%, #8a2be2 50%, #00c6ff 100%);
+  box-shadow: 0 0 16px #8a2be2;
+  position: absolute;
+  right: 330px;
+  cursor: pointer;
+}
+.windows-support {
+  background: linear-gradient(135deg, #00A4EF, #0078D6, #005BA1);
+  box-shadow: 0 0 8px #00A4EF;
+}
+
+
+/*------- Highlight Project Base Box Limit -------*/
+.highlight-box {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  justify-content: center;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+/*------- Floating Icons Base -------*/
+.social-img {
+  height: auto;
+  width: 45px;
+  border-radius: 8px;
+}
+.icon-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: transparent;
+}
+.icon-label:hover {
+  color: white;
+  transition: 1.4s ease-in-out;
+}
+
+
+/*------- Hero -------*/
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #222;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.tagline {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+
+/*------- Boss Project -------*/
+
+.boss-project {
+  margin: 1px auto;
+  width: 70%;
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 70px;
+  box-shadow: 0 5px 50px #8b0000, 0 0 200px #0077ff, 0 0 70px #0077ff;
+}
+.boss-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.boss-slider-button {
+  background: none;
+  border: none;
+  color: #eee;
+  font-size: 2rem;
+  opacity: 0.4;
+}
+.boss-slider-button:hover {
+  color: #777;
+}
+.boss-link {
+  color: #c56df5;
+}
+.attention {
+  color: #e76999;
+}
+
+
+
+/*------- Hightlight Project 0 -------*/
+
+.highlight-project-0 {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+  transition: box-shadow 0.6s ease-in-out;
+}
+.highlight-project-0.hovered {
+  box-shadow: 0 0 5px #f173a3, 0 0 77px #f173a3, 0 0 30px #f173a3;
+}
+.highlight-project-0.leaving {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+}
+.highlight-project-0-link {
+  color: #e76999;
+}
+
+/*------- Highlight Project 1 -------*/
+
+.highlight-project-1 {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+  transition: box-shadow 0.6s ease-in-out;
+}
+.highlight-project-1.hovered {
+  box-shadow: 0 0 5px #00e5ff, 0 0 77px #00e5ff, 0 0 30px #00bfa6;
+}
+.highlight-project-1.leaving {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+}
+.highlight-project-1-link {
+  color: #00bfa6;
+}
+.path-text {
+  color: #00e5ff;
+}
+.pathon {
+  color: #00bfa6;
+}
+
+
+/*------- Highlight Project 2 -------*/
+
+.highlight-project-2 {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+  transition: box-shadow 0.6s ease-in-out;
+}
+.highlight-project-2.hovered {
+  box-shadow: 0 0 5px #f4c0f4, 0 0 77px #8b0000, 0 0 30px #8b0000;
+}
+.highlight-project-2.leaving {
+  box-shadow: 0 0 5px transparent, 0 0 77px transparent, 0 0 30px transparent;
+}
+.highlight-project-2-link {
+  color: #f4c054;
+}
+.kal-text {
+  color: #f4c054;
+}
+.kal {
+  color: #fb3231;
+}
+
+
+/*------- Support Projects -------*/
+.support-projects .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+.support-projects .project-card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+.support-projects .project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 4px 0 5px #8b0000, 0 0 20px #8b0000;
+  transition: 0.3s ease-in-out;
+}
+
+
+/*------- Extras -------*/
+
+.beyond-code {
+  background: #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.extras-link {
+  color: #8b0000;
+}
+a {
+  text-decoration: none;
+}
+
+/*------- Footer -------*/
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/*------- Socials Section -------*/
+
+/*------- Floating Social Box Pop Up -------*/
+.social-box {
+  position: fixed;
+  background: #1a1a1a;
+  border-radius: 12px;
+  margin-bottom: 70px;
+  box-shadow: 0 5px 50px #8b0000, 0 0 200px #0077ff, 0 0 70px #0077ff;
+  top: 37%;
+  padding: 74px;
+  padding-top: 160px;
+  left: -120px;
+  transition: left 0.4s ease-in-out;
+  opacity: 60%;
+
+}
+.social-box.hovered {
+  left: 0px;
+  opacity: 100%;
+}
+/*------- Contacts Badge Pop Up -------*/
+.contact-badge {
+  position: fixed;
+  left: -27px;
+  top: 40.3%;
+  transform: translateY(-59.7%);
+  border-radius: 8px;
+  z-index: 1000;
+  transition: left 0.4s ease-in-out;
+  opacity: 0%;
+}
+.contact-badge.hovered {
+  left: 18px;
+  opacity: 100%;
+}
+.contacts {
+  background: #1a1a1a;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 2px 10px;
+  margin-left: 10px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+/*------- GitHub -------*/
+.github-icon {
+  position: fixed;
+  left: -30px;
+  top: 45.75%;
+  transform: translateY(-54.25%);
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: left 0.4s ease-in-out;
+  opacity: 40%;
+}
+.github-icon.hovered {
+  left: 10px;
+  opacity: 100%;
+}
+/*------- Mail -------*/
+.mail-icon {
+  position: fixed;
+  left: -30px;
+  top: 51%;
+  transform: translateY(-49%);
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: left 0.4s ease-in-out;
+  opacity: 40%;
+}
+.mail-icon.hovered {
+  left: 10px;
+  opacity: 100%;
+}
+/*------- YouTube -------*/
+.youtube-icon {
+  position: fixed;
+  left: -33px;
+  top: 56.3%;
+  transform: translateY(-43.7%);
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: left 0.4s ease-in-out;
+  opacity: 40%;
+}
+.youtube-icon.hovered {
+  left: 10px;
+  opacity: 100%;
+}
+
+
+/*-------------- --------------*/
+

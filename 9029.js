@@ -1,0 +1,158 @@
+// ------- Hightlight Project Section ------- //
+
+// ------- Hightlight Project 0 ------- //
+const boxGlow0 = document.querySelector('.highlight-project-0');
+
+boxGlow0.addEventListener('mouseenter', () => {
+  boxGlow0.classList.add('hovered');
+});
+
+boxGlow0.addEventListener('mouseleave', () => {
+  boxGlow0.classList.add('leaving');
+  setTimeout(() => {
+    boxGlow0.classList.remove('hovered', 'leaving');
+  }, 600);
+});
+
+// ------- Highlight Project 1 ------- //
+const boxGlow1 = document.querySelector('.highlight-project-1');
+
+boxGlow1.addEventListener('mouseenter', () => {
+  boxGlow1.classList.add('hovered');
+});
+
+boxGlow1.addEventListener('mouseleave', () => {
+  boxGlow1.classList.add('leaving');
+  setTimeout(() => {
+    boxGlow1.classList.remove('hovered', 'leaving');
+  }, 600);
+});
+
+// ------- Highlight Project 2 ------- //
+const boxGlow2 = document.querySelector('.highlight-project-2');
+
+boxGlow2.addEventListener('mouseenter', () => {
+  boxGlow2.classList.add('hovered');
+});
+
+boxGlow2.addEventListener('mouseleave', () => {
+  boxGlow2.classList.add('leaving');
+  setTimeout(() => {
+    boxGlow2.classList.remove('hovered', 'leaving');
+  }, 600);
+});
+
+
+// ------- Video Hover Play/Pause Section ------ //
+
+// ------- Search Anywhere ------- //
+const svideo = document.querySelector('.video-search');
+const sbox = document.querySelector('.highlight-project-0');
+
+sbox.addEventListener('mouseenter', () => {
+  svideo.play();
+});
+
+sbox.addEventListener('mouseleave', () => {
+  svideo.pause();
+  resetTimer = setTimeout(() => {
+    svideo.currentTime = 0;
+  }, 5000);
+});
+// ------- PATHon ------- //
+const pvideo = document.querySelector('.video-pathon');
+const pbox = document.querySelector('.highlight-project-1');
+
+pbox.addEventListener('mouseenter', () => {
+  pvideo.play();
+});
+
+pbox.addEventListener('mouseleave', () => {
+  pvideo.pause();
+  resetTimer = setTimeout(() => {
+    pvideo.currentTime = 0;
+  }, 5000);
+});
+// ------- Kali Yuga ------- //
+//const video = document.querySelector('.video-kaliyug');
+//const box = document.querySelector('.highlight-project-2');
+
+//box.addEventListener('mouseenter', () => {
+//  video.play();
+//});
+
+//box.addEventListener('mouseleave', () => {
+//  video.pause();
+//  resetTimer = setTimeout(() => {
+//    video.currentTime = 0;
+//  }, 5000);
+//});
+
+
+// ------- Floating Icons Section ------- //
+
+// ------- Floating Social Box -------// 
+const socialBox = document.querySelector('.social-box');
+
+socialBox.addEventListener('mouseenter', () => {
+  socialBox.classList.add('hovered');
+  contacts.classList.add('hovered');
+});
+
+socialBox.addEventListener('mouseleave', () => {
+  socialBox.classList.remove('hovered');
+  contacts.classList.remove('hovered');
+});
+// ------- Floating Contact Text -------// 
+const contacts = document.querySelector('.contact-badge');
+
+contacts.addEventListener('mouseenter', () => {
+  contacts.classList.add('hovered');
+});
+
+contacts.addEventListener('mouseleave', () => {
+  contacts.classList.remove('hovered');
+});
+
+// ------- GitHub -------// 
+const iconGithub = document.querySelector('.github-icon');
+
+iconGithub.addEventListener('mouseenter', () => {
+  iconGithub.classList.add('hovered')
+  contacts.classList.add('hovered');
+});
+
+iconGithub.addEventListener('mouseleave', () => {
+  iconGithub.classList.remove('hovered')
+  contacts.classList.remove('hovered');
+});
+
+// ------- Mail -------// 
+const iconMail = document.querySelector('.mail-icon');
+
+iconMail.addEventListener('mouseenter', () => {
+  iconMail.classList.add('hovered')
+  contacts.classList.add('hovered');
+});
+
+iconMail.addEventListener('mouseleave', () => {
+  iconMail.classList.remove('hovered')
+  contacts.classList.remove('hovered');
+});
+// ------- YouTube -------// 
+const iconYoutube = document.querySelector('.youtube-icon');
+
+iconYoutube.addEventListener('mouseenter', () => {
+  iconYoutube.classList.add('hovered')
+  contacts.classList.add('hovered');
+});
+
+iconYoutube.addEventListener('mouseleave', () => {
+  iconYoutube.classList.remove('hovered')
+  contacts.classList.remove('hovered');
+});
+
+
+
+/////////
+
