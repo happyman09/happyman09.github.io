@@ -93,63 +93,18 @@ pbox.addEventListener('mouseleave', () => {
 
 // ------- Floating Social Box -------// 
 const socialBox = document.querySelector('.social-box');
+const contactBadge = document.querySelector('.contact-badge');
 
 socialBox.addEventListener('mouseenter', () => {
   socialBox.classList.add('hovered');
-  contacts.classList.add('hovered');
 });
 
 socialBox.addEventListener('mouseleave', () => {
   socialBox.classList.remove('hovered');
-  contacts.classList.remove('hovered');
-});
-// ------- Floating Contact Text -------// 
-const contacts = document.querySelector('.contact-badge');
-
-contacts.addEventListener('mouseenter', () => {
-  contacts.classList.add('hovered');
 });
 
-contacts.addEventListener('mouseleave', () => {
-  contacts.classList.remove('hovered');
-});
-
-// ------- GitHub -------// 
-const iconGithub = document.querySelector('.github-icon');
-
-iconGithub.addEventListener('mouseenter', () => {
-  iconGithub.classList.add('hovered')
-  contacts.classList.add('hovered');
-});
-
-iconGithub.addEventListener('mouseleave', () => {
-  iconGithub.classList.remove('hovered')
-  contacts.classList.remove('hovered');
-});
-
-// ------- Mail -------// 
-const iconMail = document.querySelector('.mail-icon');
-
-iconMail.addEventListener('mouseenter', () => {
-  iconMail.classList.add('hovered')
-  contacts.classList.add('hovered');
-});
-
-iconMail.addEventListener('mouseleave', () => {
-  iconMail.classList.remove('hovered')
-  contacts.classList.remove('hovered');
-});
-// ------- YouTube -------// 
-const iconYoutube = document.querySelector('.youtube-icon');
-
-iconYoutube.addEventListener('mouseenter', () => {
-  iconYoutube.classList.add('hovered')
-  contacts.classList.add('hovered');
-});
-
-iconYoutube.addEventListener('mouseleave', () => {
-  iconYoutube.classList.remove('hovered')
-  contacts.classList.remove('hovered');
+contactBadge.addEventListener('click', () => {
+  socialBox.classList.toggle('hovered');
 });
 
 
