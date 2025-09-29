@@ -160,12 +160,21 @@ if (isMobile) {
   const videos = document.querySelectorAll("video");
 
   videos.forEach(video => {
-    video.setAttribute("autoplay", "");
-    video.setAttribute("muted", "");
-    video.setAttribute("playsinline", "");
-    video.setAttribute("loop", "");
-    video.play().catch(() => {
-    });
+    video.muted = true;
+    video.playsInline = true;
+    video.loop = true;
+
+    const playPromise = video.play();
+
+    if (playPromise !== undefined) {
+      playPromise
+        .then(() => {
+          console.log('Mobile video playing automatically');
+        })
+        .catch(() => {
+          console.log('Autoplay blocked, user interaction required');
+        });
+    }
   });
 }
 
